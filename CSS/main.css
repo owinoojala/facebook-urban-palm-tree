@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(28, 30, 33);
+    padding-top: 50px;
+    font-family: 'Work Sans', sans-serif;
+    z-index: -1;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}   
+main .left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.right-section-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 270px;
+    right: 0;
+}

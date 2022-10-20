@@ -54,8 +54,8 @@ header{
     transition: background-color 0.15s;
     position: relative;
 }
-.right-section button div,
-.middle-section button div{
+.more-tool-tip,
+.tool-tip{
     position: absolute;
     background-color: rgb(173, 169, 169);
     color: rgb(56, 55, 55);
@@ -69,6 +69,10 @@ header{
     pointer-events: none;
     transition: opacity 0.15s;
 }
+.contact-section-header button:hover .tool-tip,
+.compose-message .more:hover .more-tool-tip,
+.compose-message button:hover .tool-tip,
+.compose-message button:hover .more,
 .right-section button:hover .tool-tip,
 .middle-section button:hover .tool-tip{
     opacity: 1;
@@ -108,14 +112,15 @@ header{
 .right-section button .notification-stats{
     opacity: 1;
     background-color: rgb(177, 20, 20);
-   padding: 3px;
+    padding: 3px;
     font-size: 13px;
     color: white;
     position: absolute;
     border-radius: 10px;
     top: -18px;
-    right: -10px;
-    
+    right: -8px;
+    z-index: 1; 
 }
+
 
 

@@ -1,0 +1,28 @@
+.online-accounts button,
+.left-section button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 270px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(228, 230, 235);
+    background-color:  rgb(28, 30, 33);
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.15s;
+}
+.contacts button:hover,
+.left-section button:hover{
+    background-color: rgb(59, 58, 58);
+}
+.contacts button img,
+.left-section button img{
+    width: 28px;
+    height: 28px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
