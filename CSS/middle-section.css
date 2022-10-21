@@ -1,0 +1,328 @@
+/*Stories Section */
+
+.posting-section,.post,
+.stories-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 500px;
+    background-color: rgb(34, 32, 32);
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.stories-nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 480px;
+    margin-left: 10px;
+    
+}
+.middle-section-main a{
+    text-decoration: none;
+    color: rgb(176, 179, 184);
+    padding: 15px 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.stories-nav-bar a:hover{
+    background-color: rgb(59, 58, 58);
+}
+
+.middle-section-main hr{
+    border-color: gray;
+    border-width: 1px;
+    width: 500px;
+}
+.stories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+.my-story,
+.stories .story-preview{
+    width: 110px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.my-story{
+    box-shadow: 0px 1px 0px rgba(20, 18, 18, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.my-story .story-preview{
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+}
+.my-story button{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(7, 48, 228);
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    position: absolute;
+    bottom: 35px;
+}
+.my-story p{
+    color: rgb(228, 230, 235);
+    font-size: 13px;
+    margin-top: 25px;
+    
+}
+
+.stories div{
+    position: relative;
+}
+.stories .profile-picture{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    border: 2px solid rgb(0, 66, 128);
+}
+.friend-story p{
+    position: absolute;
+    color: rgb(228, 230, 235);
+    font-size: 13px;
+    bottom: 5px;
+    left: 10px;
+}
+
+/*Posting section */
+
+.posting-section .upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+.commenting-section .input-section input,
+.posting-section .upper input{
+    width: 420px;
+}
+.post .bottom-section .interaction-statistics,
+.posting-section .lower,.post .interaction-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    
+}
+.posting-section .lower a,.post .interaction-options a{
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: background-color 0.15s;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.posting-section .lower p{
+    
+    color: rgb(176, 179, 184);
+    white-space: nowrap;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.posting-section .lower .fa-video{
+    font-size: px;
+    color: rgb(155, 22, 22);
+}
+.posting-section .lower .fa-photo-film{
+    font-size: 18px;
+    color: palegreen;
+}
+.posting-section .lower .fa-face-smile{
+    font-size: 18px;color: rgb(230, 230, 94);
+}
+.posting-section .lower a:hover,
+.post .interaction-options a:hover{
+    background-color: rgb(59, 58, 58);
+}
+
+/*Posts */
+.commenting-section .input-section,
+.post .head-section{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   width: 500px;
+}
+.post .head-section .right-row, .more-comments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(176, 179, 184);
+    margin-left: 10px;
+    width: 470px;
+}
+.post .head-section .account-name{
+    margin-bottom: -18px;
+    font-weight: 600;
+}
+.post .head-section .fa-ellipsis{
+    background-color:rgb(34, 32, 32);
+    margin-right: -30px;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.post .head-section .fa-ellipsis:hover{
+    background-color: rgb(59, 58, 58);
+}
+
+        /*Posted text */
+    .post .message-section{
+         color: rgb(228, 230, 235);
+         margin-top: 0;
+         font-size: 15px;
+    }
+    .post .message-section a{
+        color:  rgb(7, 48, 228);
+    }
+    .post .image-section{
+        position: relative;
+    }
+    .post .image-section img{
+        margin: -10px;
+        width: 520px;
+    }
+    
+    .photography-credit{
+        color: rgb(228, 230, 235);
+        font-size: 13px;
+        background-color: rgb(58, 55, 55);
+        padding: 5px;
+        width: 185px;
+        border-radius: 12px;
+        position: absolute;
+        bottom: -5px;
+    }
+    .post .bottom-section .interaction-statistics{
+        color: rgb(176, 179, 184);  
+    }
+    .bottom-section .reactions .fa-thumbs-up{
+        color: rgb(11, 84, 194);
+    }
+    .bottom-section .reactions .fa-face-laugh{
+        color: rgb(184, 144, 16);
+        margin-left: -10px;
+    }
+    .post .interaction-options{
+        white-space: nowrap;
+        height: 40px;
+        margin-top: -6px;
+        margin-bottom: -6px;
+    }
+    .post .interaction-options i{
+        margin-right: 5px;
+    }
+    .post .interaction-options img{
+        height: 28px;
+        width: 28px;
+        border-radius: 14px;
+        margin-right: 7px;
+        margin-top: -6px;
+        margin-bottom: -6px;
+    }
+    
+    .commenting-section .relevant-filter{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        color: rgb(176, 179, 184);
+        font-size: 16px;
+        font-weight: 600;
+        padding: 0; 
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .relevant-filter span{
+        margin-left: 10px;
+    }
+    .filter-status,
+    .commenting-section .prompt{
+        color: rgb(228, 230, 235);
+        font-size: 12px;
+        margin-top: 1px;
+        margin-left: 50px;
+    }
+    .commenting-section .users-comment{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+    .users-comment div{
+        color: rgb(228, 230, 235);
+        background-color: rgb(59, 58, 58);
+        padding:10px;
+        border-radius: 15px;
+        margin-left: 10px;
+        
+    }
+    .users-comment p{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .users-comment .users-name{
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .users-comment .comment{
+        font-size: 14px;
+    }
+    .comment-and-others .options{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+    .comment-and-others .options span,
+    .comment-and-others .options a{
+        font-size: 12px;
+        margin-right: -40px;
+        color: rgb(176, 179, 184);
+    }
+    .comment-and-others span{
+        margin-left: 10px;
+    }
+    .comment-and-others .options a:hover{
+        text-decoration: underline;
+    }
+    .filter-status{
+        margin-top: -20px;
+    }
+    .more-comments{
+        margin-bottom: -10px;
+    }
+    .more-comments .left{
+        font-weight: 600;
+    }
+
+
+
+
+

@@ -16,6 +16,7 @@
     transition: background-color 0.15s;
 }
 .contacts button:hover,
+.group-section .add-group:hover,
 .left-section button:hover{
     background-color: rgb(59, 58, 58);
 }
@@ -25,4 +26,22 @@
     height: 28px;
     border-radius: 15px;
     margin-right: 10px;
+}
+footer{
+    display: inline;
+    color: rgb(176, 179, 184);
+    font-family: 'Work Sans', sans-serif;
+    font-style: 13px;
+    font-weight: 400;
+    width: 240px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(176, 179, 184);
+}
+footer p{
+    margin-bottom: -8px;
+}
+footer a:hover{
+    text-decoration: underline;
 }

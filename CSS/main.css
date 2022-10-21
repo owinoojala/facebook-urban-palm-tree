@@ -2,7 +2,7 @@ body{
     background-color: rgb(28, 30, 33);
     padding-top: 50px;
     font-family: 'Work Sans', sans-serif;
-    z-index: -1;
+    padding-bottom: 10px;
 }
 
 main{
@@ -25,4 +25,11 @@ main .left-section{
     align-items: flex-start;
     width: 270px;
     right: 0;
+}
+.middle-section-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
 }

@@ -9,6 +9,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000; 
 }
 .left-side{
     display: flex;
@@ -77,6 +78,7 @@ header{
 .middle-section button:hover .tool-tip{
     opacity: 1;
 }
+.birthdays button:hover,
 .middle-section button:hover{
     background-color: rgb(59, 58, 58);
 
@@ -119,7 +121,7 @@ header{
     border-radius: 10px;
     top: -18px;
     right: -8px;
-    z-index: 1; 
+    
 }
 
 

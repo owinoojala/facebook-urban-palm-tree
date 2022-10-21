@@ -5,11 +5,11 @@
 .birthdays .birthday-title{
     font-size: 15px;
     font-weight: 600;
-    color: gray;
+    color: rgb(176, 179, 184);
 }
 
 .birthdays p{
-    color: gray;
+    color: rgb(176, 179, 184);
     font-size: 15px;
     font-weight: 500;
 }
@@ -27,9 +27,7 @@
     border: none;
     transition: background-color 0.15s;
 }
-.birthdays button:hover{
-    background-color: rgb(59, 58, 58);
-}
+
 .birthdays button img{
     width: 28px;
     height: 28px;
@@ -47,7 +45,7 @@
 }
 .right-section-main hr{
 width: 250px;
-border-color: gray;
+border-color: rgb(176, 179, 184);
 }
 .contacts{
     margin-top: -8px;
@@ -57,7 +55,7 @@ border-color: gray;
     align-items: flex-start;
 }
 .contact-section-header{
-    color: gray;
+    color: rgb(176, 179, 184);
     font-weight: 600;
     font-size: 15px;
     display: flex;
@@ -72,11 +70,12 @@ border-color: gray;
     justify-content: flex-end;
     align-items: center;
 }
+
 .contact-section-header div button{
     margin-left: 10px;
     padding: 8px;
     font-size: 15px;
-    color: grey;
+    color: rgb(176, 179, 184);
     border-radius: 20px;
     background-color: rgb(28, 30, 33);
     border: none;
@@ -89,7 +88,7 @@ border-color: gray;
     right: 15px;
 }
 .compose-message button{
-    color: gray;
+    color: rgb(176, 179, 184);
     background-color: rgb(59, 58, 58);
     height: 50px;
     width: 50px;
@@ -124,5 +123,35 @@ border-color: gray;
 }
 .contact-section-header .options .tool-tip{
     left: -40px;
+}
+/*Group Coversations Sections */
+.group-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.group-section .add-group{
+    color: rgb(228, 230, 235);
+    padding: 5px 10px;
+    width: 240px;
+    border-radius: 10px;
+    transition: background-color 0.15s;
+}
+.group-section .head{
+    color: rgb(176, 179, 184);
+}
+
+.group-section i{
+    padding: 8px 9px;
+    background-color: rgb(59, 58, 58);
+    border-radius: 18px;
+    color: rgb(228, 230, 235);
+    font-size: 15px;
+    border: none;
 }
 
